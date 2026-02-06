@@ -14,10 +14,11 @@ https://creativecommons.org/publicdomain/zero/1.0/
 2. edit `img-000.png`,\
 remove everything above the base64,\
 overlay `img-001.png`,\
-shift `img-000.png` up or down until `>` matches exactly with `img-001.png`
-3. edit `img-075.png`,\
+shift `img-000.png` up or down until `>` matches exactly with `img-001.png`,\
+remove the `img-001.png` overlay
+4. edit `img-075.png`,\
 remove everything after the base64
-4. run `ocr.py` and profit
+5. run `ocr.py` and profit
 
 ## Resulting SHA224
 
