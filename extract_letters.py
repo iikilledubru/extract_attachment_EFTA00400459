@@ -15,6 +15,9 @@ unique_letters = []
 for image in tqdm(images):
     image = Image.open(image).convert('RGB')
     image = transforms.ToTensor()(image)
+    image *= 64
+    image = image.round()
+    image /= 64
 
     letter_w = 8
     cell_w = 8 - 1/5
@@ -30,9 +33,6 @@ for image in tqdm(images):
             rx = int(x)
             ry = int(y)
             cropped = image[..., ry:, rx:][..., :letter_h, :letter_w]
-            cropped *= 64
-            cropped = cropped.round()
-            cropped /= 64
             letters.append(cropped)
             x += cell_w
         y += line_h

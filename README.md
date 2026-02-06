@@ -28,7 +28,7 @@ calculated with `sha224sum`
 |---|---|
 | `EFTA00400459.pdf` | `bfa1d9ac2fe5d0271337a5b0809d3406d23dc2af21e25b6480183c2f` |
 | `base64_decoded.pdf` | `31fb4aea870b85ed702fa77eb886274cfc400fb260a3085e2e332551` |
-| `base64_extracted.txt` | `08af8d63faf98917e5de888527a47301d664af02c41fed69cfbf445b` |
+| `base64_extracted.txt` | `13fdfc39bce2daf1c794e521c28db30baa088d5af0546301e6c4406b` |
 
 ## How does it work?
 

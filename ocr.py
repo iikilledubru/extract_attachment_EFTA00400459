@@ -27,9 +27,6 @@ for l in tqdm(letters):
 
     image = Image.open(l).convert('RGB')
     image = transforms.ToTensor()(image)
-    image *= 64
-    image = image.round()
-    image /= 64
 
     if x == 'slash':
         x = '/'
@@ -42,8 +39,8 @@ letter_images = torch.stack(letter_images)
 
 def find_letter(letter):
     global letter_images
-    # letter_images must be accessible (e.g., global or passed in)
-    if letter.mean() >= (1 - 1/255):
+
+    if letter.mean() >= (1 - 1/0xFF):
         return ""
 
     letters = torch.stack([letter])
@@ -65,6 +62,9 @@ if __name__ == '__main__':
 
             image = Image.open(image).convert('RGB')
             image = transforms.ToTensor()(image)
+            image *= 64
+            image = image.round()
+            image /= 64
 
             letter_w = 8
             cell_w = 8 - 1/5
@@ -80,9 +80,6 @@ if __name__ == '__main__':
                     rx = int(x)
                     ry = int(y)
                     cropped = image[..., ry:, rx:][..., :letter_h, :letter_w]
-                    cropped *= 64
-                    cropped = cropped.round()
-                    cropped /= 64
                     letters.append(cropped)
                     x += cell_w
                 y += line_h
@@ -94,10 +91,15 @@ if __name__ == '__main__':
 
             matrix = tuple(letter_values[x.item()] for x in matrix)
             for char in matrix:
-                w.write(char)
-                count += 1
+                if char != '':
+                    w.write(char)
+                    count += 1
+                    if count % 76 == 0:
+                        w.write('\n')
 
             print(f'\tcount: {count}')
+            if count % 76 != 0:
+                w.write('\n')
             w.flush()
 
     import base64
