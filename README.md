@@ -1,7 +1,7 @@
 # Extract Attachment From EFTA00400459
 
 thanks to the one who contacted me by mail..
-see also https://www.reddit.com/r/netsec/comments/1qw4sfa/recreating_uncensored_epstein_pdfs_from_raw/
+see also https://www.reddit.com/r/netsec/comments/1qw4sfa/
 
 ## License
 
@@ -30,6 +30,8 @@ calculated with `sha224sum`
 | `base64_extracted.txt` | `08af8d63faf98917e5de888527a47301d664af02c41fed69cfbf445b` |
 
 ## How does it work?
+
+(check out for more in depth explanation https://www.reddit.com/r/netsec/comments/1qw4sfa/comment/o3y564b/)
 
 in this file a monospace font of size `8x12` (`w=8px, h=12px`) is used.\
 we just readout all letters, starting at position `y=39px, x=61px`.\
